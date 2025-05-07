@@ -96,13 +96,14 @@ public class Dialog_Controller : MonoBehaviour
         string[] _Speechs;
         int _Speech_Counter;
 
-        if (_Speeching_ID == _User_ID) {
+        if (_Speeching_ID == _User_ID)
+        {
             _Speeching_ID = _NPC_ID;
             _Name = _NPC_Name;
             _Speechs = _NPC_Speechs;
             _Speech_Counter = _NPC_Speech_Counter;
         }
-        else 
+        else
         {
             _Speeching_ID = _User_ID;
             _Name = _User_Name;
